@@ -1,0 +1,14 @@
+alias gsta='git stash'
+compdef _git gsta=git-stash
+alias gstl='git stash list'
+compdef _git gstl=git-stash
+alias gsts='git stash show'
+compdef _git gsts=git-stash-show
+alias gstd='git stash drop'
+compdef _git gstd=git-stash-drop
+alias gstb='git stash branch'
+compdef _git gstd=git-stash-branch
+alias gsts='git stash save'
+compdef _git gsts=git-stash-save
+alias gstc='git stash clear'
+compdef _git gstc=git-stash-clear
