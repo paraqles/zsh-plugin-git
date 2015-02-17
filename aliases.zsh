@@ -1,4 +1,4 @@
-for al in `ls $ZSH_PLUGIN_GIT_DIR/aliases.*.zsh`; do
+for al in `ls aliases.*.zsh`; do
   source $al
 done
 
